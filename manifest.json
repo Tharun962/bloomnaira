@@ -1,0 +1,30 @@
+{
+    "name": "Bloomnaira",
+    "short_name": "bloom",
+    "id": "/bloomnaira/",
+    "icons": [
+        {
+            "src": "./images/Group 1-192x41.png",
+            "sizes": "192x41",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/Group 1-370x79.png",
+            "sizes": "370x79",
+            "type": "image/png"
+        },
+        {
+        "src": "./images/Group 1-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/bbloomnaira/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "splash_screen": {
+        "src": "./images/Group 1-192x41.png"
+    }
+}

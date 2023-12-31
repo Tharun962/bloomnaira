@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+        <span class="menu__wrapper">
+                <span class="menu__bar">
+                    <a href="index.html" title="Logo">
+                        <img src="images/Group 1.png" alt="Logo" class="logo" title="Logo" />
+                    </a>
+                    <img class="menu-icon" src="images/menu-4-fill.svg" title="Burger Menu" alt="Burger Menu" onclick="toggleMenu(this)" />
+                    <menu class="navigation">
+                        <li>
+                            <a href="index.html">
+                                <img src="images/home-7-fill.svg" alt="home-icon">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="dashboard.html">
+                                <img src="images/dashboard-fill.svg" alt="dashboard-icon">
+                                Dashboard
+                            </a>
+                        </li>
+                        <li>
+                            <a href="investment.html">
+                                <img src="images/bar-chart-fill.svg" alt="investment-icon">
+                                Investments
+                            </a>
+                        </li>
+                        <li>
+                            <a href="my-link.html">
+                                <img src="images/links-fill.svg" alt="link-icon">
+                                My Links
+                            </a>
+                        </li>
+                        <button onclick="window.location.href = 'login.html';">
+                            <img src="images/login-circle-line.svg" alt="login-icon">
+                            Log in
+                        </button>
+                        <button onclick="window.location.href = 'signup.html';">
+                            <img src="images/logout-circle-r-line.svg" alt="logout-icon">
+                            Sign up
+                        </button>
+                    </menu>
+                </span>
+        </span>
+        <section class="profile-wrapper">
+                <div class="profile-dashboard">
+                    <h3>Dashboard</h3>
+                    <img src="images/account-circle-fill.svg" alt="">
+                    <p>ID : 628940</p>
+                </div>
+                <div class="profile-card">
+                    <h3 class="title-card">Account Balance</h3>
+                    <div class="text-card">
+                        <div class="text-content">
+                            <p class="title-price">&#8358; 400,000</p>
+                        </div>
+                        <div class="profile-content">
+                            <div class="profit-content">
+                                <h4>Profit</h4>
+                                <p>+ 200%</p>
+                            </div>
+                            <div class="days-content">
+                                <h4>Day count</h4>
+                                <p>8 Days</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <div class="price-list">
+                <div class="btn-pay">
+                    <button class="deposit">
+                        + Deposit
+                    </button>
+                    <button class="withdraw">
+                        - Withdraw
+                    </button>
+                </div>
+                <div class="price-history">
+                    <div class="head-title">
+                        <h3>History</h3>
+                    </div>
+                    <div class="pricing">
+                        <div class="pricing-text">
+                            <h3>&#8358; 20,000</h3>
+                            <p>28 May 22:08</p>
+                        </div>
+                        <div class="pricing-img">
+                            <img src="images/deposit-checkbox.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="pricing">
+                        <div class="pricing-text">
+                            <h3>&#8358; 40,000</h3>
+                            <p>28 May 22:08</p>
+                        </div>
+                        <div class="pricing-img">
+                            <img src="images/deposit-checkbox.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="pricing">
+                        <div class="pricing-text">
+                            <h3>&#8358; 20,000</h3>
+                            <p>28 May 22:08</p>
+                        </div>
+                        <div class="pricing-img">
+                            <img src="images/deposit-checkbox.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="pricing">
+                        <div class="pricing-text">
+                            <h3>&#8358; 120,000</h3>
+                            <p>28 May 22:08</p>
+                        </div>
+                        <div class="pricing-img">
+                            <img src="images/withdraw-checkbox.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="pricing">
+                        <div class="pricing-text">
+                            <h3>&#8358; 100,000</h3>
+                            <p>28 May 22:08</p>
+                        </div>
+                        <div class="pricing-img">
+                            <img src="images/deposit-checkbox.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="pricing">
+                        <div class="pricing-text">
+                            <h3>&#8358; 20,000</h3>
+                            <p>28 May 22:08</p>
+                        </div>
+                        <div class="pricing-img">
+                            <img src="images/withdraw-checkbox.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="pricing">
+                        <div class="pricing-text">
+                            <h3>&#8358; 20,000</h3>
+                            <p>28 May 22:08</p>
+                        </div>
+                        <div class="pricing-img">
+                            <img src="images/deposit-checkbox.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="warning">
+                    <div class="warning-content">
+                        <img src="images/deposit-checkbox.svg" alt="">
+                        <p>Withdraw</p>
+                    </div>
+                    <div class="warning-content">
+                        <img src="images/withdraw-checkbox.svg" alt="">
+                        <p>Deposit</p>
+                    </div>
+                </div>
+        </div>    
+        <section class="footer">
+            <p>&copy;copyright Bloomnaira 2023. All rights reserved. SEO by Bloomnergy Digitals</p>
+        </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
